@@ -1,0 +1,43 @@
+body
+    background-color: $gray-lighter
+
+.container-fluid
+    max-width: $max-width
+    width: 100%
+    margin: 0 auto
+
+main.container-fluid
+    margin-top: 4rem
+    margin-bottom: 2rem
+
+    .row
+        margin-top: $spacer-y * 3
+
+        a
+            color: $brand-primary
+
+            &:hover
+                color: darken($brand-primary, 10%)
+
+.btn-outline-secondary:hover
+    color: darken($link-color, 30%)
+    border-color: darken($link-color, 30%)
+    background: none
+
+
+footer
+    color: $link-color
+
+    .btn-link
+        transition: all ease-in-out 200ms
+        color: $link-color
+
+        &:hover
+            color: darken($link-color, 30%)
+            text-decoration: none
+
+    padding: 2rem 0
+
+@include media-breakpoint-up(md)
+    main.container-fluid
+        margin-top: 10rem

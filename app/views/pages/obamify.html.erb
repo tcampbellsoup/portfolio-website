@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  </head>
+  <body>
+    <button class="hamburger hamburger--spring" type="button" >
+      <span class="hamburger-box"> 
+        <span class="hamburger-inner"></span>
+      </span>
+      <br>
+    </button>
+    <ul class="burger-links" >
+      <div class="link-hover"> 
+        <center> 
+          <%=link_to 'Home.', root_url %> 
+        </center> 
+      </div>
+
+      <div class="link-hover"> 
+        <center> 
+          <%=link_to 'Portfolio.', pages_portfolio_url %> 
+        </center> 
+      </div>
+
+      <div class="link-hover"> 
+        <center> 
+          <%=link_to 'About.', pages_about_url %> 
+        </center> 
+      </div>
+
+      <div class="link-hover"> 
+        <center> 
+          <%=link_to 'Contact.', pages_contact_url %> 
+        </center> 
+      </div>
+    </ul>
+      <br>
+      </br>
+      <br>
+      </br>
+
+      <div id="project-img">
+
+        <div id="project-row">
+          <a href="https://hidden-hollows-39165.herokuapp.com/">
+            <%=image_tag("obamify.gif", width: '500px', height: '400px')%>
+          </a>
+        </div>
+
+        <div id="project-des">
+          <h1 id="project-title">Obamify Your Mood</h1>
+
+          <p>Obamify Me is a simple web project that allows the user to enter their current mood and getting an Obama gif in return. This was built with HTML, CSS, JQuery and Javascript. This project was made at the <a href="https://medium.com/@itpnyu/itps-obamathon-2e74b1bef9e9">Obamathon held at ITP</a> in January 2017.</p>
+          <p>A live version of this site can be seen <a id="project-link" href="https://hidden-hollows-39165.herokuapp.com/">at this link</a>.</p>
+      </div>
+
+    </div>
+
+    <br>
+    </br>
+
+    <center><div id = "folio-link"><%=link_to 'Back to Portfolio', pages_portfolio_url %></div></center>
+    
+
+
+
+  </body>
+  <html>

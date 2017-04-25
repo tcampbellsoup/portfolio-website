@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+  </head>
+  <body>
+    <button class="hamburger hamburger--spring" type="button" >
+      <span class="hamburger-box"> 
+        <span class="hamburger-inner"></span>
+      </span>
+      <br>
+    </button>
+
+    <ul class="burger-links" >
+      <div class="link-hover"> 
+        <center> 
+          <%=link_to 'Home.', root_url %> 
+        </center> 
+      </div>
+
+      <div class="link-hover"> 
+        <center> 
+          <%=link_to 'Portfolio.', pages_portfolio_url %> 
+        </center> 
+      </div>
+
+      <div class="link-hover"> 
+        <center> 
+          <%=link_to 'About.', pages_about_url %> 
+        </center> 
+      </div>
+
+      <div class="link-hover"> 
+        <center> 
+          <%=link_to 'Contact.', pages_contact_url %> 
+        </center> 
+      </div>
+    </ul>
+    
+    <h1 id = "name-intro"> Tanya Campbell </h1>
+    <h2 id = "job-title">Web Developer, UX Designer, Educator & Illustrator</h2>
+    <br>
+    <div id = "folio-link"><%=link_to 'View Portfolio', pages_portfolio_url %></div>
+    <div id="avatar"><%=image_tag("avatarwhite.gif", width: '100px', height: '150px') %></div>
+
+    <br>
+  </body>
+
+</html>

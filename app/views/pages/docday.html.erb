@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  </head>
+  <body>
+    <button class="hamburger hamburger--spring" type="button" >
+      <span class="hamburger-box"> 
+        <span class="hamburger-inner"></span>
+      </span>
+      <br>
+    </button>
+    <ul class="burger-links" >
+      <div class="link-hover"> 
+        <center> 
+          <%=link_to 'Home.', root_url %> 
+        </center> 
+      </div>
+
+      <div class="link-hover"> 
+        <center> 
+          <%=link_to 'Portfolio.', pages_portfolio_url %> 
+        </center> 
+      </div>
+
+      <div class="link-hover"> 
+        <center> 
+          <%=link_to 'About.', pages_about_url %> 
+        </center> 
+      </div>
+
+      <div class="link-hover"> 
+        <center> 
+          <%=link_to 'Contact.', pages_contact_url %> 
+        </center> 
+      </div>
+    </ul>
+      <br>
+      </br>
+      <br>
+      </br>
+      <center>
+      <div id="project-img">
+
+
+        <div id="project-row">
+          <a href="https://www.demtales.org/">
+          		<center>
+
+					<%=image_tag("docdaysteps.gif", width: '500px', height: '800px')%>
+					<p>Organizing my thoughts for the doc day website. Knowing that this website will consist of many steps, I just wanted to make sure that I jotted everything down in a logical order.</p>
+          <%=image_tag("docday2.jpeg", width: '500px', height: '288px')%>
+          <p>Doc Day Online Homepage - Toying around with the placements of things and possible flats that would be appropriate for the project.</p>
+					<%=image_tag("docday3.jpeg", width: '500px', height: '350px')%>
+					<p>Figuring out what would be the best placement for the "Previous" and "Next" buttons for each step. </p>
+				
+					
+          		</center>
+
+          </a>
+        </div>
+
+        <div id="project-des">
+          <h1 id="obamify-title">Doc Day Online</h1>
+
+			<p>This is a project that is being built for ITP and NYU Tisch students. While this project is still in the middle of development, feel free to check out some of the wireframes to the left.
+      <br><br>
+			My role in this project:
+      <br>
+			UX Designer, Web Developer
+      <br>
+      A live version of this proejct can be viewed <a id="project-link" href="https://itp.nyu.edu/~tc1886/">here</a>.</p>
+
+
+      </div>
+
+    </div>
+
+    <br>
+    </br>
+    <center>
+
+    <center><div id = "folio-link"><%=link_to 'Back to Portfolio', pages_portfolio_url %></div></center>
+    
+
+
+
+  </body>
+  <html>

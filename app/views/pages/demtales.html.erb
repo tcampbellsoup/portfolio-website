@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  </head>
+  <body>
+    <button class="hamburger hamburger--spring" type="button" >
+      <span class="hamburger-box"> 
+        <span class="hamburger-inner"></span>
+      </span>
+      <br>
+    </button>
+    <ul class="burger-links" >
+      <div class="link-hover"> 
+        <center> 
+          <%=link_to 'Home.', root_url %> 
+        </center> 
+      </div>
+
+      <div class="link-hover"> 
+        <center> 
+          <%=link_to 'Portfolio.', pages_portfolio_url %> 
+        </center> 
+      </div>
+
+      <div class="link-hover"> 
+        <center> 
+          <%=link_to 'About.', pages_about_url %> 
+        </center> 
+      </div>
+
+      <div class="link-hover"> 
+        <center> 
+          <%=link_to 'Contact.', pages_contact_url %> 
+        </center> 
+      </div>
+    </ul>
+      <br>
+      </br>
+      <br>
+      </br>
+      <center>
+      <div id="project-img">
+
+
+        <div id="project-row">
+          <a href="https://www.demtales.org/">
+          		<center>
+					<%=image_tag("demtales.png", width: '500px', height: '400px')%>
+          <p>A middle school student usertesting the DEM Tales platform.</p>
+
+					<iframe src="https://player.vimeo.com/video/166406754" width="500" height="288" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+					<p>My DEM Tales Presentation During Thesis Week.</p>
+					<iframe src="https://player.vimeo.com/video/164673545" width="500" height="288" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+					<p>Demo Video of DEM Tales.</p>
+					<%=image_tag("demtalesinteraction.jpg", width: '500px', height: '288px')%>
+					<p>Quick Wireframe of DEM Tales Mobile Experience.</p>
+					<%=image_tag("animationPeak2.gif", width: '500px', height: '400px')%>
+					<p>An After Effects Milestone for the Math Episode.</p>
+					<%=image_tag("chardes.png", width: '500px', height: '350px')%>
+					<p>Quick Snapshot of the Character Design Process.</p>
+					<%=image_tag("usertest2.png", width: '500px', height: '400px')%>
+					<p>Students user testing DEM Tales.</p>
+
+          <%=image_tag("11-pre.JPG", width: '236px', height: '726px')%>
+          <p>A pre-test taken by a junior before watching Math Episode.</p>
+          <%=image_tag("11-post.JPG", width: '236px', height: '726px')%>
+          <p>A post-test taken by a junior before watching Math Episode.</p>
+          <%=image_tag("episodeorganize.JPG", width: '500px', height: '400px')%>
+          <p>A quick snapshot of organizing my Fractions Episode.</p>
+          <%=image_tag("claymation.JPG", width: '500px', height: '400px')%>
+          <p>Early stages of scultping and molding.</p>
+					
+          		</center>
+
+          </a>
+        </div>
+
+        <div id="project-des">
+          <h1 id="project-title">Dope Engineering + Math (DEM) Tales</h1>
+
+			<p>Dope Engineering + Math Tales is an effort make STEM content entertaining, interactive,  approachable and resourceful for underserved students.
+      <br><br>
+			My role in this project:
+      <br>
+			Mobile app development, UX/UI design,  character design, curriculum design, episode/animation production, and interactive design.</p>
+
+
+
+			<p>DEM Tales is an interactive, animated, STEM enriched mobile platform. DEM Tales is a call-to-action project to support and provide an alternative curriculum to underserved NYC students.</p>
+
+
+
+			<p>DEM Tales contains a collection of animated episodes. These episodes present STEM content in a mixture of popular colloquialisms and interaction. Users are held accountable if they wish to reach the conclusions of each episode. For example, if the user is watching an episode, it will pause at a certain point. The user will be prompted to drag and drag an item to a designated portion on the screen. The episode will not continue until this action is performed.</p>
+
+      </div>
+
+    </div>
+
+    <br>
+    </br>
+    <center>
+
+    <center><div id = "folio-link"><%=link_to 'Back to Portfolio', pages_portfolio_url %></div></center>
+    
+
+
+
+  </body>
+  <html>

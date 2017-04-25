@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+  </head>
+  <body>
+<button class="hamburger hamburger--spring" type="button" >
+      <span class="hamburger-box"> 
+        <span class="hamburger-inner"></span>
+      </span>
+      <br>
+    </button>
+
+    <ul class="burger-links" >
+      <div class="link-hover"> 
+        <center> 
+          <%=link_to 'Home.', root_url %> 
+        </center> 
+      </div>
+
+      <div class="link-hover"> 
+        <center> 
+          <%=link_to 'Portfolio.', pages_portfolio_url %> 
+        </center> 
+      </div>
+
+      <div class="link-hover"> 
+        <center> 
+          <%=link_to 'About.', pages_about_url %> 
+        </center> 
+      </div>
+
+      <div class="link-hover"> 
+        <center> 
+          <%=link_to 'Contact.', pages_contact_url %> 
+        </center> 
+      </div>
+    </ul>
+
+  
+    <br>
+    </br>
+    <br>
+    </br>
+    <br>
+    </br>
+
+    <div id="about-content">
+      <center><h1 id="about-title">Hi, my name is Tanya.</h1>
+        <div id = "about-des">
+          <p>I am a Web Developer with 3 years of experience.</p>
+          <p>I have a background in Electrical Engineering Technology & Painting.</p>
+           <p>I recieved my Masters degree in Interactive Telecommunications from <a href="https://tisch.nyu.edu/itp">NYU ITP</a>.</p>
+        </div>
+     </center>
+
+   
+    </br>
+    <br>
+    </br>
+
+      <h4>Press:</h4>
+        <ul id="press-links">
+          <li><a href="https://medium.com/@itpnyu/itps-obamathon-2e74b1bef9e9">ITP Obamathon</a></li>
+          <li><a href="http://makezine.com/2015/05/27/sweat-hugs-vr-ar-itp-spring-show/">BearHug on MakeZine.com</a></li>
+          <li><a href="https://vimeo.com/123023527">Museum of Moving Image - Drawing on Everything</a></li>
+        </ul>
+      
+      
+
+      <h4>Development Skills:</h4>
+      <ul>
+        <li>HTML5</li>
+        <li>CSS3</li>
+        <li>Sass</li>
+        <li>Javascript</li>
+        <li>jQuery</li>
+        <li>Wordpress</li>
+        <li>Github</li>
+      </ul>
+        <h4>Design Skills:</h4>
+      <ul>
+        <li>Adobe Photoshop</li>
+        <li>Adobe Illustrator</li>
+        <li>Adobe After Effects</li>
+        <li>Adobe Premiere Pro</li>
+      </ul>
+
+      <h4>Details About My Website:</h4>
+      <p>This website was built from scratch by me. Ruby on Rails was used as its base and jQuery for basic animations. CSS was written in Sass, and I followed organized design concepts with consideration for mobile platforms. </p>
+    </div>
+
+</html>

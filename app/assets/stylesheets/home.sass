@@ -1,0 +1,76 @@
+#avatar
+	position: fixed
+	right: 0
+	bottom: 0
+
+#menu-title
+	font-family: 'Roboto', sans-serif
+	color: #7A6E87
+
+.hamburger
+	position: aboslute
+	outline: 0
+	width: 50
+	height: 50
+	
+	
+#nav-menu-bg
+	background-color: #C9D1B6
+	position: relative
+	display: none
+	width: 99vw
+	height: 99vh
+	z-index: 1e
+	opacity: 0.9
+
+#nav-links
+	position: aboslute
+	z-index: 10
+
+
+
+	
+
+
+//how to write in scss:
+// @mixin fontColor($values)
+//	color: $values;
+// 	font-family: 'Lato', sans-serif;
+// 	font-size: 25pt;
+// 	position: fixed;
+// 	left: 50%;
+// 	top: 50%;
+//how to write in sass:
+=titleStyles($values)
+	color: $values
+	font-family: 'Baloo Bhaina', serif
+	// font-size: 25pt
+	// position: fixed
+	
+
+// @media (max-width: 375px){
+// 	@include fontColor(#ccc);
+// };
+
+
+#nameintro 
+	// @include titleStyles(#FFFEEB)
+	@include titleStyles(#7A6E87)
+	// font-size: 7vw
+	font-size: 80px
+	order: 2
+	position: fixed
+	top: 65%
+	right: 6%
+	bottom: 0
+
+
+#jobTitle 
+	font-family: 'Roboto', sans-serif
+	// font-size: 2vw
+	font-size: 24px
+	color: #A9A2B2
+	position: fixed
+	right: 6%
+	bottom: 0
+	letter-spacing: 6.5px

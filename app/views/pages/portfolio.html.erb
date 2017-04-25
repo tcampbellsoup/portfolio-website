@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  </head>
+  <body id="portfolio-body">
+    <button class="hamburger hamburger--spring" type="button" >
+      <span class="hamburger-box"> 
+        <span class="hamburger-inner"></span>
+      </span>
+      <br>
+    </button>
+    <ul class="burger-links" >
+      <div class="link-hover"> 
+        <center> 
+          <%=link_to 'Home.', root_url %> 
+        </center> 
+      </div>
+
+      <div class="link-hover"> 
+        <center> 
+          <%=link_to 'Portfolio.', pages_portfolio_url %> 
+        </center> 
+      </div>
+
+      <div class="link-hover"> 
+        <center> 
+          <%=link_to 'About.', pages_about_url %> 
+        </center> 
+      </div>
+
+      <div class="link-hover"> 
+        <center> 
+          <%=link_to 'Contact.', pages_contact_url %> 
+        </center> 
+      </div>
+    </ul>
+    
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br> <br>
+    
+  <center>
+
+    <div id="row1">
+
+      <div id="obama-project">
+        <%=link_to image_tag("obamify.gif", width: '500px', height: '600px'), pages_obamify_url%>
+      </div>
+
+      <div id = "demtales">
+        <%=link_to image_tag("demtales.png", width: '500px', height: '600px'), pages_demtales_url%>
+      </div>
+
+    </div>
+
+    <div id="row2">
+
+      <div id="docday">
+        <%=link_to image_tag("inprogress.gif", width: '450px', height: '600px'), pages_docday_url%>
+      </div>
+
+      <div id="french">
+        <%=link_to image_tag("frenchinprogress.png", width: '450px', height: '600px'), pages_frenchcounter_url%>
+      </div>
+
+    </div>
+
+
+    <div id="row3">
+
+       <div id="outrage">
+        <%=link_to image_tag("cowboy.jpg", width: '500px', height: '650px'), pages_outrage_url%>
+      </div>
+
+      <div id="minion">
+        <%=link_to image_tag("minion.jpg", width: '500px', height: '600px'), pages_minion_url%>
+      </div>
+
+    </div>
+
+
+    <div id="row4">
+
+      <div id="bearhug"> 
+        <%=link_to image_tag("BEARHUG.jpg", width: '500px', height: '600px'), pages_bearhug_url%>
+      </div>
+
+      <div id="paintings"> 
+        <%=link_to image_tag("paintings.jpg", width: '500px', height: '600px'), pages_paintings_url%>
+      </div>
+    </div>
+  
+  <br>
+
+
+  </center>
+ 
+
+
+  </body>
+</html>

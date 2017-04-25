@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  </head>
+  <body>
+    <button class="hamburger hamburger--spring" type="button" >
+      <span class="hamburger-box"> 
+        <span class="hamburger-inner"></span>
+      </span>
+      <br>
+    </button>
+    <ul class="burger-links" >
+      <div class="link-hover"> 
+        <center> 
+          <%=link_to 'Home.', root_url %> 
+        </center> 
+      </div>
+
+      <div class="link-hover"> 
+        <center> 
+          <%=link_to 'Portfolio.', pages_portfolio_url %> 
+        </center> 
+      </div>
+
+      <div class="link-hover"> 
+        <center> 
+          <%=link_to 'About.', pages_about_url %> 
+        </center> 
+      </div>
+
+      <div class="link-hover"> 
+        <center> 
+          <%=link_to 'Contact.', pages_contact_url %> 
+        </center> 
+      </div>
+    </ul>
+      <br>
+      </br>
+      <br>
+      </br>
+      <center>
+      <div id="project-img">
+
+
+        <div id="project-row">
+          <a href="https://www.demtales.org/">
+              <center>
+          <iframe src="https://player.vimeo.com/video/154229098" width="500" height="288" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+          <p>Here is a video of our project.</p>
+              </center>
+
+          </a>
+        </div>
+
+        <div id="project-des">
+          <h1 id="project-title">Outrage Machine - A Collaborating with ITP, Viacom and NYC Media Lab</h1>
+
+            <p>This internship gave my group and I the opportunity to spotlight socially outrageous topics by creating content for the Viacom screens in Times Square. My group focused on the topic of censorship in America. We presented our final project at Viacom's Whitebox theater. The video on your left documents our project's experience.
+            <br><br>
+            My role in this project:
+            <br>
+            My role in this project included idea development, research, documentation, video editing and website development. I worked on this project with two ITPers - Danielle Butler and Ian Gibson.</p>
+            </p>
+
+      </div>
+
+    </div>
+
+    <br>
+    </br>
+    <center>
+
+    <center><div id = "folio-link"><%=link_to 'Back to Portfolio', pages_portfolio_url %></div></center>
+    
+
+
+
+  </body>
+  <html>

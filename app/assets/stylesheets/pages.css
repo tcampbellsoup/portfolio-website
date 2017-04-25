@@ -1,0 +1,72 @@
+body {
+  background-color: #C9D1B6; }
+
+#parentdiv {
+  display: flex;
+  flex-direction: row; }
+
+#pglinks {
+  order: 1; }
+
+#aboutmeblurb {
+  order: 2;
+  padding: 120px 50px 50px 50px;
+  font-family: "Roboto", sans-serif; }
+  #aboutmeblurb h4 {
+    color: #FE9A73; }
+
+#aboutmefro {
+  order: 3;
+  align-self: flex-end;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  -vendor-animation-duration: 13s;
+  vendor-animation-delay: 2s; }
+
+#avatar {
+  position: fixed;
+  right: 0;
+  bottom: 0; }
+
+#menu-title {
+  font-family: "Roboto", sans-serif;
+  color: #7A6E87; }
+
+.hamburger {
+  position: aboslute;
+  outline: 0;
+  width: 50;
+  height: 50; }
+
+#nav-links {
+  display: none;
+  background-color: #C9D1B6;
+  z-index: 1;
+  opacity: 0.9;
+  font-family: "Baloo Bhaina", sans-serif;
+  line-height: 90px;
+  font-size: 24px;
+  color: #FE9A73;
+  text-decoration: none; }
+
+#nameintro {
+  color: #7A6E87;
+  font-family: "Baloo Bhaina", serif;
+  font-size: 80px;
+  order: 2;
+  position: fixed;
+  top: 65%;
+  right: 6%;
+  bottom: 0; }
+
+#jobTitle {
+  font-family: "Roboto", sans-serif;
+  font-size: 24px;
+  color: #A9A2B2;
+  position: fixed;
+  right: 6%;
+  bottom: 0;
+  letter-spacing: 6.5px; }
+
+/*# sourceMappingURL=pages.css.map */
