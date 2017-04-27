@@ -51,12 +51,13 @@ gem 'mail_form'
 gem 'simple_form'
 
 group :development do
-  gem 'rails_real_favicon'
+  # gem 'rails_real_favicon'
+  gem 'sqlite3'
 end
 
 # group :production do
 #   gem 'unicorn'
-#   gem 'pg', '~> 0.18.4'
+#   gem 'pg'
 # end
 
 

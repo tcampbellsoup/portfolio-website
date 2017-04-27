@@ -154,6 +154,10 @@ button
 	$hamburger-layer-color: #F5F4F6 !default
 	.burger-links
 		background-color: #FFFFFF !important
+	img
+		&:hover
+			box-shadow: 10px 10px 5px #888888
+			transform: scale(1.1)
 
 
 #row1, #row2, #row3, #row4 
@@ -166,8 +170,8 @@ button
 #obama-project, #docday, #bearhug, #outrage
 	width: 50%
 	padding-right: 2%
-	&:hover
-		filter: saturate(800%)
+	padding-top: 1%
+
 		
 
 
@@ -177,8 +181,8 @@ button
 	width: 50%
 	padding-left: 2%
 	padding-right: 2%
-	&:hover
-		filter: saturate(800%)
+	padding-top: 1%
+
 
 
 
@@ -234,6 +238,7 @@ button
 #contact-email
 	text-decoration: underline
 	color: #FFFFFF
+	font-size: 20px
 #submit-button
 	color: #7A6E87 !important
 	background-color: #FFFFFF
@@ -269,10 +274,22 @@ input
 #user-msg
 	height: 50px
 
-social-flats
+#social-flats
+	width: 150px
+	height: 60px
 	display: flex
 	flex-direction: row
 	flex-wrap: nowrap
+	margin-left: 10%
+	justify-content: space-between
+
+
+#linked-flat, #git-flat, #vimeo-flat, #gram-flat
+	&:hover
+		transform: scale(1.1)
+		
+
+
 
 
 
