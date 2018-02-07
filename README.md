@@ -27,4 +27,4 @@ Things you may want to cover:
 * ...
 
 (http://www.wooglie.com/iframegame.php?gameID=4116&BGCOLOR=000000) 
-[http://www.wooglie.com/iframegame.php?gameID=4116&BGCOLOR=000000]
+[example of uploaded game](http://www.wooglie.com/iframegame.php?gameID=4116&BGCOLOR=000000)
