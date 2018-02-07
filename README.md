@@ -24,3 +24,4 @@ Things you may want to cover:
 * ...
 
 (http://www.wooglie.com/iframegame.php?gameID=4116&BGCOLOR=000000)
+<iframe src="http://www.wooglie.com/iframegame.php?gameID=4116&BGCOLOR=000000" style="padding: 0px 0px 0px 0px;left: 0px; top: 0px; border: 0px; width: 900px; height: 680px" scrolling="no" frameborder=0></iframe>
